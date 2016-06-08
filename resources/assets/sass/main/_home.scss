@@ -1,0 +1,41 @@
+@mixin backgroundImage {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+@mixin cover($background:black, $opacity:0.4, $gradient:null) {
+    .cover {
+        background: $background;
+        opacity: $opacity;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        position: fixed;
+
+        @if $gradient {
+            background: $gradient;
+        }
+    }
+}
+
+@mixin text($paddingTop: 68px, $paddingRight: 40px, $paddingBottom: 40px, $paddingLeft: 40px) {
+    .text {
+        padding-top: $paddingTop;
+        padding-right: $paddingRight;
+        padding-bottom: $paddingBottom;
+        padding-left: $paddingLeft;
+        //So it appears above the black cover
+        position: relative;
+    }
+}
+
+#home-page {
+    background: url('/img/nature.jpg') no-repeat right center;
+    @include backgroundImage;
+    @include text;
+    @include cover(black, .5);
+}
