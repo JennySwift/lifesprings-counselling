@@ -119,6 +119,7 @@ h1 {
             .img-container {
                 height: auto;
                 width: 50%;
+                margin-top: 0;
                 img.bigger-screens {
                     display: none;
                 }
@@ -126,6 +127,21 @@ h1 {
                     display: block;
                     max-width: none;
                 }
+            }
+        }
+    }
+    @media (max-width: $breakpoint2) {
+        .text-img-container {
+            .img-container {
+                width: 80%;
+            }
+        }
+    }
+    @media (max-width: $breakpoint1) {
+        .text-img-container {
+            .img-container {
+                width: 88%;
+                margin-top: -25px;
             }
         }
     }

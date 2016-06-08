@@ -372,12 +372,22 @@ h1 {
 @media (max-width: 910px) {
   #service-page .text-img-container .img-container {
     height: auto;
-    width: 50%; }
+    width: 50%;
+    margin-top: 0; }
     #service-page .text-img-container .img-container img.bigger-screens {
       display: none; }
     #service-page .text-img-container .img-container img.smaller-screens {
       display: block;
       max-width: none; } }
+
+@media (max-width: 768px) {
+  #service-page .text-img-container .img-container {
+    width: 80%; } }
+
+@media (max-width: 320px) {
+  #service-page .text-img-container .img-container {
+    width: 88%;
+    margin-top: -25px; } }
 
 #about-page .text {
   padding-top: 20px;
