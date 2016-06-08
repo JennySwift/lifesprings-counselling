@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Lifesprings Counselling</title>
+    @include('main.shared.head-links')
 </head>
 <body>
 
@@ -30,6 +31,6 @@
 
 
 
-
+@include('main.shared.footer')
 </body>
 </html>

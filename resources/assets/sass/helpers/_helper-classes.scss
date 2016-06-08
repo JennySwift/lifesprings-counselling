@@ -1,0 +1,125 @@
+.slide {
+    display: none;
+}
+
+.fa-check {
+    color: $success;
+    font-size: 16px;
+}
+
+.btn-success{
+    background: $success;
+    &:hover {
+        background: darken($success, 3%);
+    }
+}
+
+.add-btn {
+    font-size: 15px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: $success;
+    padding: 1px 7px;
+    //border: 1px solid #777;
+    &:hover {
+        //box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+.input-group-container {
+    margin-bottom: 7px;
+}
+
+label.input-group-addon {
+    background: $navBackgroundColor;
+    color: white;
+    min-width: 135px;
+}
+
+.selected {
+    background: $navBackgroundColor;
+    color: white;
+}
+
+.sortable {
+    cursor: grab;
+}
+
+body {
+    -webkit-perspective: 0px;
+    -webkit-perspective-origin: 100% 100%;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.list-group {
+    //To prevent funny corners when I give it a box-shadow
+    border-radius: 5px;
+}
+
+.list-group-item-success {
+    background: white;
+    color: $success;
+    span {
+        background: $success;
+    }
+}
+
+.list-group-item-warning {
+    background: white;
+    color: $warning;
+    span {
+        background: $warning;
+    }
+}
+.list-group-item-info {
+    background: white;
+    color: $info;
+    span {
+        background: $info;
+    }
+}
+.list-group-item-danger {
+    background: white;
+    color: $danger;
+    span {
+        background: $danger;
+    }
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+	label {
+		margin-bottom: 0;
+		font-weight: normal;
+	}
+	input {
+		margin-right: 5px;
+	}
+}
+
+.checkboxes {
+    display: flex;
+    .checkbox-container {
+        margin-right: 18px;
+    }
+}
+
+.hover:hover {
+	background: #b5b5b5;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn-xs {
+	font-size: 8px;
+	padding: 1px 3px;
+}
