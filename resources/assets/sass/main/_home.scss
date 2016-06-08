@@ -41,8 +41,22 @@
 }
 
 #service-page {
-    background: url('/img/forest.jpg') no-repeat right center;
+    background: url('/img/forest.jpg') no-repeat center center;
     @include backgroundImage;
     @include text;
     @include cover(black, .45);
+}
+
+#about-page {
+    background: url('/img/autumn.jpg') no-repeat right center;
+    @include backgroundImage;
+    @include text;
+    @include cover(black, .35);
+}
+
+#appointment-and-contact-page {
+    background: url('/img/waterfall.jpg') no-repeat center center;
+    @include backgroundImage;
+    @include text;
+    @include cover(black, .4);
 }

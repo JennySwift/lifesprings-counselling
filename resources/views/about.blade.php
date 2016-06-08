@@ -5,15 +5,14 @@
     <title>Lifesprings Counselling</title>
     @include('main.shared.head-links')
 </head>
-<body>
+<body id="about-page">
 
 <navbar></navbar>
 
-<h1>About Dina</h1>
+<div class="cover"></div>
+<div class="text">
+    <h1>About Dina</h1>
 
-
-
-<div>
     <p>I am passionate about helping others grow in their capacity to live life more fully as they grow in
         understanding of themselves, develop stronger relationships and discover healthier ways of dealing with life
         challenges.</p>
@@ -29,7 +28,7 @@
 
 </div>
 
-<img src="/img/autumn.jpg">
+{{--<img src="/img/autumn.jpg">--}}
 
 @include('main.shared.footer')
 

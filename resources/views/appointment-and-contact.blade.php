@@ -5,11 +5,12 @@
     <title>Lifesprings Counselling</title>
     @include('main.shared.head-links')
 </head>
-<body>
+<body id="appointment-and-contact-page">
 
 <navbar></navbar>
 
-<div>
+<div class="cover"></div>
+<div class="text">
     <h1>Appointment and Contact</h1>
 
     <p>Appointments are available at Waterloo or Ramsgate as follows:</p>
@@ -23,7 +24,7 @@
     <h1>To make an appointment call Dina on 0414 440 727.</h1>
 </div>
 
-<img src="/img/waterfall.jpg">
+{{--<img src="/img/waterfall.jpg">--}}
 
 @include('main.shared.footer')
 
