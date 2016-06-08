@@ -316,6 +316,11 @@ h1 {
   #home-page .text p {
     margin: 20px auto; }
 
+#home-page h2 a {
+  color: #777; }
+  #home-page h2 a:hover {
+    color: #777; }
+
 #service-page .text {
   padding-top: 20px;
   padding-right: 20px;
@@ -452,6 +457,11 @@ h1 {
 
 #appointment-and-contact-page h1.smaller-screens {
   display: none; }
+
+#appointment-and-contact-page h1 a {
+  color: #777; }
+  #appointment-and-contact-page h1 a:hover {
+    color: #777; }
 
 @media (max-width: 844px) {
   #appointment-and-contact-page h1.smaller-screens {

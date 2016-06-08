@@ -68,6 +68,12 @@ h1 {
     //@include backgroundImage;
     @include text;
     //@include cover(black, .5);
+    h2 a {
+        color: #777;
+        &:hover {
+            color: #777;
+        }
+    }
 }
 
 #service-page {
@@ -207,6 +213,12 @@ h1 {
     }
     h1.smaller-screens {
         display: none;
+    }
+    h1 a {
+        color: #777;
+        &:hover {
+            color: #777;
+        }
     }
     @media (max-width: 844px) {
         h1.smaller-screens {

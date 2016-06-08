@@ -16,10 +16,10 @@
     {{--<h1>Appointment and Contact</h1>--}}
     <h1 class="smaller-screens">
         <span>To make an appointment call Dina on</span>
-        <span>0414 440 727.</span>
+        <span><a href="tel:0414440727">&#48;&#52;&#49;&#52; &#52;&#52;&#48; &#55;&#50;&#55;</a>.</span>
     </h1>
 
-    <h1 class="bigger-screens">To make an appointment call Dina on 0414 440 727.</h1>
+    <h1 class="bigger-screens">To make an appointment call Dina on <a href="tel:0414440727">&#48;&#52;&#49;&#52; &#52;&#52;&#48; &#55;&#50;&#55;</a>.</h1>
 
     <p>Appointments are available at Waterloo or Ramsgate as follows:</p>
 
