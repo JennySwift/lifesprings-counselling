@@ -10,7 +10,7 @@
 <navbar></navbar>
 
 <div class="cover"></div>
-<div class="text">
+<div class="text scrollbar-container">
     <h1>Welcome to Lifesprings Counselling!</h1>
     <h2>Dina Lindemann 0414 440 727</h2>
 

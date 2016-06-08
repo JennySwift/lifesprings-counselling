@@ -10,7 +10,7 @@
 <navbar></navbar>
 
 <div class="cover"></div>
-<div class="text">
+<div class="text scrollbar-container">
     <h1>About Dina</h1>
 
     <p>I am passionate about helping others grow in their capacity to live life more fully as they grow in

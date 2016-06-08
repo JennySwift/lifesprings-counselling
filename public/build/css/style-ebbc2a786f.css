@@ -233,6 +233,12 @@ body {
     text-align: center; }
     #navbar .show-dropdown .disabled:hover {
       background: white; }
+  @media (max-width: 768px) {
+    #navbar li {
+      min-width: 40px; } }
+  @media (max-width: 320px) {
+    #navbar a {
+      font-size: 12px; } }
 
 #loading {
   position: fixed;
