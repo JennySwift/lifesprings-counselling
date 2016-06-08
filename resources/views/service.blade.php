@@ -54,6 +54,8 @@
 
 </div>
 
+<img src="/img/forest.jpg">
+
 
 @include('main.shared.footer')
 

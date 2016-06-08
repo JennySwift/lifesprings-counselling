@@ -31,6 +31,8 @@
         <a href="" target="_blank">Psychotherapy & Counselling Federation of Australia (PACFA)</a>.</p>
 </div>
 
+<img src="/img/nature.jpg">
+
 
 
 @include('main.shared.footer')

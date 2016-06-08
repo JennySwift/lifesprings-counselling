@@ -23,6 +23,7 @@
     <h1>To make an appointment call Dina on 0414 440 727.</h1>
 </div>
 
+<img src="/img/waterfall.jpg">
 
 @include('main.shared.footer')
 

@@ -29,6 +29,7 @@
 
 </div>
 
+<img src="/img/autumn.jpg">
 
 @include('main.shared.footer')
 
