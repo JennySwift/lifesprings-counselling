@@ -35,7 +35,7 @@
         <a href="http://www.pacfa.org.au/" target="_blank">Psychotherapy & Counselling Federation of Australia (PACFA)</a>.</p>
 </div>
 
-<div class="img-container">
+<div class="img-container logo-img-container">
     <img class="logo" src="/img/CCAA-Logo.gif">
 </div>
 

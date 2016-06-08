@@ -288,6 +288,22 @@ body {
     transform: translate3d(108%, 0, 0);
     animation-timing-function: ease; } }
 
+.img-container {
+  text-align: center;
+  margin: 20px; }
+  .img-container img {
+    height: 200px;
+    border-radius: 10px; }
+    .img-container img.logo {
+      width: 266px;
+      height: auto;
+      border-radius: 0; }
+  .img-container.logo-img-container {
+    margin-top: 0; }
+
+h1 {
+  margin-top: 0px; }
+
 #home-page .text {
   padding-top: 20px;
   padding-right: 20px;
@@ -321,9 +337,47 @@ body {
   position: fixed; }
 
 #service-page h1 {
-  text-align: left;
   max-width: 600px;
   margin: 0 auto 20px auto; }
+
+#service-page .text-img-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #service-page .text-img-container .img-container {
+    width: 25%; }
+    #service-page .text-img-container .img-container img {
+      width: 100%;
+      max-width: 300px;
+      height: auto; }
+      #service-page .text-img-container .img-container img.smaller-screens {
+        display: none; }
+
+#service-page .list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #service-page .list ul {
+    margin-top: 0;
+    margin-left: 0; }
+
+@media (max-width: 910px) {
+  #service-page .text-img-container .img-container {
+    height: auto;
+    width: 50%; }
+    #service-page .text-img-container .img-container img.bigger-screens {
+      display: none; }
+    #service-page .text-img-container .img-container img.smaller-screens {
+      display: block;
+      max-width: none; } }
 
 #about-page .text {
   padding-top: 20px;
@@ -341,46 +395,63 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   #about-page .text-img-container .profile-container {
-    max-width: 30%; }
+    width: 24%; }
     #about-page .text-img-container .profile-container img.profile {
-      width: 100%; }
-  #about-page .text-img-container .text {
-    -ms-flex-positive: 1;
-    flex-grow: 1; }
+      width: 100%;
+      max-width: 300px;
+      height: auto; }
 
-#appointment-and-contact-page {
-  text-align: center; }
-  #appointment-and-contact-page .text {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    position: relative; }
-    #appointment-and-contact-page .text p, #appointment-and-contact-page .text ul {
-      max-width: 600px;
-      margin: auto; }
-    #appointment-and-contact-page .text p {
-      margin: 20px auto; }
-  #appointment-and-contact-page span.bold {
-    font-weight: bold; }
-  #appointment-and-contact-page .time {
-    margin: 20px 0; }
-    #appointment-and-contact-page .time p {
-      margin: 0 auto; }
+@media (max-width: 768px) {
+  #about-page .text-img-container .profile-container {
+    width: 50%;
+    margin-top: 0; } }
 
-.img-container {
-  text-align: center;
-  margin: 20px; }
-  .img-container img {
-    width: 77%;
-    border-radius: 10px; }
-    .img-container img.logo {
-      width: 266px;
-      border-radius: 0; }
+#appointment-and-contact-page .text {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  position: relative; }
+  #appointment-and-contact-page .text p, #appointment-and-contact-page .text ul {
+    max-width: 600px;
+    margin: auto; }
+  #appointment-and-contact-page .text p {
+    margin: 20px auto; }
 
-h1 {
-  margin-top: 0px; }
+#appointment-and-contact-page span.bold {
+  font-weight: bold; }
+
+#appointment-and-contact-page .time {
+  margin: 20px 0; }
+  #appointment-and-contact-page .time p {
+    margin: 0 auto; }
+
+#appointment-and-contact-page .img-container img {
+  width: 50%;
+  height: auto;
+  margin-top: 0; }
+
+#appointment-and-contact-page .text p {
+  max-width: 500px; }
+
+#appointment-and-contact-page h1.smaller-screens {
+  display: none; }
+
+@media (max-width: 844px) {
+  #appointment-and-contact-page h1.smaller-screens {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #appointment-and-contact-page h1.bigger-screens {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

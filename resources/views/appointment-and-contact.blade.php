@@ -9,20 +9,23 @@
 
 <navbar></navbar>
 
-<div class="img-container">
-    <img src="/img/waterfall.jpg">
-</div>
+
 
 {{--<div class="cover"></div>--}}
 <div class="text">
-    <h1>Appointment and Contact</h1>
+    {{--<h1>Appointment and Contact</h1>--}}
+    <h1 class="smaller-screens">
+        <span>To make an appointment call Dina on</span>
+        <span>0414 440 727.</span>
+    </h1>
+
+    <h1 class="bigger-screens">To make an appointment call Dina on 0414 440 727.</h1>
 
     <p>Appointments are available at Waterloo or Ramsgate as follows:</p>
 
     <div class="time">
         <p><span class="bold">Tuesdays and Thursdays</span> (12pm-7:30pm last appointment)</p>
-        <p>Location:  20/198-222 Young Street, Waterloo (inner Sydney)</p>
-        <p><a target="_blank" href="https://www.google.com.au/maps/place/20%2F198-222+Young+St,+Waterloo+NSW+2017">Map</a></p>
+        <p>Location:  20/198-222 Young Street, Waterloo (inner Sydney) <a target="_blank" href="https://www.google.com.au/maps/place/20%2F198-222+Young+St,+Waterloo+NSW+2017">Map</a></p>
     </div>
 
     <div class="time">
@@ -32,11 +35,12 @@
             <a target="_blank" href="https://www.google.com.au/maps/place/245+Rocky+Point+Rd,+Ramsgate+NSW+2217">Map</a></p>
     </div>
 
-    <h2>To make an appointment call Dina on 0414 440 727.</h2>
 </div>
 
 
-
+<div class="img-container">
+    <img src="/img/waterfall.jpg">
+</div>
 @include('main.shared.footer')
 
 </body>

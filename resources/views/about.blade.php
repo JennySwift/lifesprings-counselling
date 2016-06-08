@@ -9,9 +9,9 @@
 
 <navbar></navbar>
 
-<div class="img-container">
-    <img src="/img/autumn.jpg">
-</div>
+{{--<div class="img-container">--}}
+    {{--<img src="/img/autumn.jpg">--}}
+{{--</div>--}}
 
 {{--<div class="cover"></div>--}}
 <div class="text-img-container">
