@@ -13,7 +13,7 @@
 <div class="text">
     <h1>Welcome to Lifesprings Counselling!</h1>
     <h2>Dina Lindemann 0414 440 727</h2>
-    
+
     <p>Perhaps you have come to this site whilst exploring the possibility of counselling for yourself or someone you
         know. Here you will find information on the counselling and psychotherapy service offered at Lifesprings
         Counselling.</p>

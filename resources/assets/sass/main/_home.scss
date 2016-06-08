@@ -39,3 +39,10 @@
     @include text;
     @include cover(black, .5);
 }
+
+#service-page {
+    background: url('/img/forest.jpg') no-repeat right center;
+    @include backgroundImage;
+    @include text;
+    @include cover(black, .45);
+}

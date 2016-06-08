@@ -5,11 +5,12 @@
     <title>Lifesprings Counselling</title>
     @include('main.shared.head-links')
 </head>
-<body>
+<body id="service-page">
 
 <navbar></navbar>
 
-<div>
+<div class="cover"></div>
+<div class="text">
 
     <h1>Service</h1>
 
@@ -54,7 +55,7 @@
 
 </div>
 
-<img src="/img/forest.jpg">
+{{--<img src="/img/forest.jpg">--}}
 
 
 @include('main.shared.footer')
