@@ -5,12 +5,17 @@
     <title>Lifesprings Counselling</title>
     @include('main.shared.head-links')
 </head>
-<body id="home-page">
+<body id="home-page" class="scrollbar-container">
 
 <navbar></navbar>
 
-<div class="cover"></div>
-<div class="text scrollbar-container">
+{{--<div class="cover"></div>--}}
+<div class="img-container">
+    <img src="/img/nature.jpg">
+</div>
+
+
+<div class="text">
     <h1>Welcome to Lifesprings Counselling!</h1>
     <h2>Dina Lindemann 0414 440 727</h2>
 
@@ -30,10 +35,9 @@
         <a href="http://www.pacfa.org.au/" target="_blank">Psychotherapy & Counselling Federation of Australia (PACFA)</a>.</p>
 </div>
 
-{{--<img src="/img/nature.jpg">--}}
-<img src="/img/CCAA-Logo.gif">
-
-
+<div class="img-container">
+    <img class="logo" src="/img/CCAA-Logo.gif">
+</div>
 
 @include('main.shared.footer')
 </body>

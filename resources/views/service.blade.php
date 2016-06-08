@@ -5,12 +5,17 @@
     <title>Lifesprings Counselling</title>
     @include('main.shared.head-links')
 </head>
-<body id="service-page">
+<body id="service-page" class="scrollbar-container">
 
 <navbar></navbar>
 
-<div class="cover"></div>
-<div class="text scrollbar-container">
+<div class="img-container">
+    {{--<img src="/img/forest.jpg">--}}
+    <img src="/img/river.jpg">
+</div>
+
+{{--<div class="cover"></div>--}}
+<div class="text">
 
     <h1>Service</h1>
 
@@ -54,9 +59,6 @@
     <p>The cost of this service will typically be around the same or lower than the out of pocket cost (gap) of seeing a psychologist under Medicare.</p>
 
 </div>
-
-{{--<img src="/img/forest.jpg">--}}
-
 
 @include('main.shared.footer')
 

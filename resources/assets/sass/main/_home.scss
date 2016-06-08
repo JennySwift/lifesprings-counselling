@@ -31,7 +31,7 @@
         //So it appears above the black cover
         position: relative;
         p,ul {
-            max-width: 600px;
+            max-width: $textMaxWidth;
             margin: auto;
         }
         p {
@@ -42,34 +42,49 @@
 }
 
 #home-page {
-    background: url('/img/nature.jpg') no-repeat right center;
-    @include backgroundImage;
+    //background: url('/img/nature.jpg') no-repeat right center;
+    //@include backgroundImage;
     @include text;
-    @include cover(black, .5);
+    //@include cover(black, .5);
 }
 
 #service-page {
-    background: url('/img/forest.jpg') no-repeat center center;
-    @include backgroundImage;
+    //background: url('/img/forest.jpg') no-repeat center center;
+    //@include backgroundImage;
     @include text;
     @include cover(black, .45);
+    h1 {
+        text-align: left;
+        max-width: $textMaxWidth;
+        margin: 0 auto 20px auto;
+    }
 }
 
 #about-page {
-    background: url('/img/autumn.jpg') no-repeat right center;
-    @include backgroundImage;
+    //background: url('/img/autumn.jpg') no-repeat right center;
+    //@include backgroundImage;
     @include text;
-    @include cover(black, .35);
-    img {
-        width: 20%;
+    //@include cover(black, .35);
+    .text-img-container {
+        display: flex;
+        align-items: center;
+        .profile-container {
+            max-width: 30%;
+            img.profile {
+                width: 100%;
+            }
+        }
+        .text {
+            flex-grow: 1;
+        }
     }
 }
 
 #appointment-and-contact-page {
-    background: url('/img/waterfall.jpg') no-repeat center center;
-    @include backgroundImage;
+    //background: url('/img/waterfall.jpg') no-repeat center center;
+    //@include backgroundImage;
     @include text;
-    @include cover(black, .4);
+    //@include cover(black, .4);
     text-align: center;
     span.bold {
         font-weight: bold;
@@ -80,4 +95,21 @@
             margin: 0 auto;
         }
     }
+}
+
+.img-container {
+    text-align: center;
+    margin: 20px;
+    img {
+        width: 77%;
+        border-radius: 10px;
+        &.logo {
+            width: 266px;
+            border-radius: 0;
+        }
+    }
+}
+
+h1 {
+    margin-top: 0px;
 }

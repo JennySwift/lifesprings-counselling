@@ -8,7 +8,7 @@ html, body {
 
 body {
   padding-top: 52px;
-  color: white;
+  color: #777;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px; }
@@ -35,11 +35,6 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-align: center; }
-
-a {
-  color: #5cb85c; }
-  a:hover {
-    color: #5cb85c; }
 
 [v-fade] {
   display: none; }
@@ -278,8 +273,6 @@ body {
   max-height: 100%; }
   .scrollbar-container .mCSB_dragger {
     height: 70px !important; }
-    .scrollbar-container .mCSB_dragger .mCSB_dragger_bar {
-      background: white !important; }
 
 .popup-inner-transition {
   animation-duration: 1s; }
@@ -295,85 +288,69 @@ body {
     transform: translate3d(108%, 0, 0);
     animation-timing-function: ease; } }
 
-#home-page {
-  background: url("/img/nature.jpg") no-repeat right center;
-  height: 100%;
-  background-size: cover;
+#home-page .text {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: relative; }
-  #home-page .text {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    position: relative; }
-    #home-page .text p, #home-page .text ul {
-      max-width: 600px;
-      margin: auto; }
-    #home-page .text p {
-      margin: 20px auto; }
-  #home-page .cover {
-    background: black;
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: fixed; }
+  #home-page .text p, #home-page .text ul {
+    max-width: 600px;
+    margin: auto; }
+  #home-page .text p {
+    margin: 20px auto; }
 
-#service-page {
-  background: url("/img/forest.jpg") no-repeat center center;
-  height: 100%;
-  background-size: cover;
+#service-page .text {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: relative; }
-  #service-page .text {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    position: relative; }
-    #service-page .text p, #service-page .text ul {
-      max-width: 600px;
-      margin: auto; }
-    #service-page .text p {
-      margin: 20px auto; }
-  #service-page .cover {
-    background: black;
-    opacity: 0.45;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: fixed; }
+  #service-page .text p, #service-page .text ul {
+    max-width: 600px;
+    margin: auto; }
+  #service-page .text p {
+    margin: 20px auto; }
 
-#about-page {
-  background: url("/img/autumn.jpg") no-repeat right center;
+#service-page .cover {
+  background: black;
+  opacity: 0.45;
+  width: 100%;
   height: 100%;
-  background-size: cover;
+  top: 0;
+  position: fixed; }
+
+#service-page h1 {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 20px auto; }
+
+#about-page .text {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: relative; }
-  #about-page .text {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    position: relative; }
-    #about-page .text p, #about-page .text ul {
-      max-width: 600px;
-      margin: auto; }
-    #about-page .text p {
-      margin: 20px auto; }
-  #about-page .cover {
-    background: black;
-    opacity: 0.35;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: fixed; }
-  #about-page img {
-    width: 20%; }
+  #about-page .text p, #about-page .text ul {
+    max-width: 600px;
+    margin: auto; }
+  #about-page .text p {
+    margin: 20px auto; }
+
+#about-page .text-img-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+  #about-page .text-img-container .profile-container {
+    max-width: 30%; }
+    #about-page .text-img-container .profile-container img.profile {
+      width: 100%; }
+  #about-page .text-img-container .text {
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
 
 #appointment-and-contact-page {
-  background: url("/img/waterfall.jpg") no-repeat center center;
-  height: 100%;
-  background-size: cover;
-  position: relative;
   text-align: center; }
   #appointment-and-contact-page .text {
     padding-top: 20px;
@@ -386,18 +363,24 @@ body {
       margin: auto; }
     #appointment-and-contact-page .text p {
       margin: 20px auto; }
-  #appointment-and-contact-page .cover {
-    background: black;
-    opacity: 0.4;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: fixed; }
   #appointment-and-contact-page span.bold {
     font-weight: bold; }
   #appointment-and-contact-page .time {
     margin: 20px 0; }
     #appointment-and-contact-page .time p {
       margin: 0 auto; }
+
+.img-container {
+  text-align: center;
+  margin: 20px; }
+  .img-container img {
+    width: 77%;
+    border-radius: 10px; }
+    .img-container img.logo {
+      width: 266px;
+      border-radius: 0; }
+
+h1 {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=style.css.map */
