@@ -25,12 +25,13 @@
         short term counselling as well as longer term counselling based on my client’s needs.</p>
     <p>Practicing within a Christian worldview, I take a holistic approach in my practice, recognising that physical,
         psychological and spiritual aspects of the individual all contribute to healthy functioning.</p>
-    <p>As a registered member of the <a href="" target="_blank">Christian Counsellors Association of Australia</a> (CCAA), all counselling and therapy
+    <p>As a registered member of the <a href="http://www.ccaa.net.au/" target="_blank">Christian Counsellors Association of Australia</a> (CCAA), all counselling and therapy
         is conducted abiding by the ethical guidelines of the Association, as well as the ethical standards of the
-        <a href="" target="_blank">Psychotherapy & Counselling Federation of Australia (PACFA)</a>.</p>
+        <a href="http://www.pacfa.org.au/" target="_blank">Psychotherapy & Counselling Federation of Australia (PACFA)</a>.</p>
 </div>
 
 {{--<img src="/img/nature.jpg">--}}
+<img src="/img/CCAA-Logo.gif">
 
 
 
