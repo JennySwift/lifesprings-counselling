@@ -28,7 +28,7 @@
 
 </div>
 
-{{--<img src="/img/autumn.jpg">--}}
+{{--<img src="/img/profile.jpg">--}}
 
 @include('main.shared.footer')
 

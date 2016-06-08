@@ -8,7 +8,10 @@ html, body {
 
 body {
   padding-top: 52px;
-  color: white; }
+  color: white;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px; }
   body .main {
     padding-bottom: 60px;
     min-height: calc(100% - 40px);
@@ -32,6 +35,11 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-align: center; }
+
+a {
+  color: #5cb85c; }
+  a:hover {
+    color: #5cb85c; }
 
 [v-fade] {
   display: none; }
@@ -182,14 +190,15 @@ body {
     justify-content: center;
     position: relative;
     height: 50px;
-    min-width: 70px; }
+    min-width: 200px; }
     #navbar > li .icon-container {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: center;
       align-items: center; }
     #navbar > li > a {
-      transition: all .5s ease; }
+      transition: all .5s ease;
+      text-decoration: none; }
     #navbar > li:hover > a {
       font-size: 19px; }
       #navbar > li:hover > a.fa {
@@ -258,8 +267,13 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-.scrollbar-container .mCSB_dragger {
-  height: 70px !important; }
+.scrollbar-container {
+  position: relative;
+  max-height: 100%; }
+  .scrollbar-container .mCSB_dragger {
+    height: 70px !important; }
+    .scrollbar-container .mCSB_dragger .mCSB_dragger_bar {
+      background: white !important; }
 
 .popup-inner-transition {
   animation-duration: 1s; }
@@ -281,11 +295,16 @@ body {
   background-size: cover;
   position: relative; }
   #home-page .text {
-    padding-top: 68px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     position: relative; }
+    #home-page .text p, #home-page .text ul {
+      max-width: 600px;
+      margin: auto; }
+    #home-page .text p {
+      margin: 20px auto; }
   #home-page .cover {
     background: black;
     opacity: 0.5;
@@ -300,11 +319,16 @@ body {
   background-size: cover;
   position: relative; }
   #service-page .text {
-    padding-top: 68px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     position: relative; }
+    #service-page .text p, #service-page .text ul {
+      max-width: 600px;
+      margin: auto; }
+    #service-page .text p {
+      margin: 20px auto; }
   #service-page .cover {
     background: black;
     opacity: 0.45;
@@ -319,11 +343,16 @@ body {
   background-size: cover;
   position: relative; }
   #about-page .text {
-    padding-top: 68px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     position: relative; }
+    #about-page .text p, #about-page .text ul {
+      max-width: 600px;
+      margin: auto; }
+    #about-page .text p {
+      margin: 20px auto; }
   #about-page .cover {
     background: black;
     opacity: 0.35;
@@ -331,18 +360,26 @@ body {
     height: 100%;
     top: 0;
     position: fixed; }
+  #about-page img {
+    width: 20%; }
 
 #appointment-and-contact-page {
   background: url("/img/waterfall.jpg") no-repeat center center;
   height: 100%;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   #appointment-and-contact-page .text {
-    padding-top: 68px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     position: relative; }
+    #appointment-and-contact-page .text p, #appointment-and-contact-page .text ul {
+      max-width: 600px;
+      margin: auto; }
+    #appointment-and-contact-page .text p {
+      margin: 20px auto; }
   #appointment-and-contact-page .cover {
     background: black;
     opacity: 0.4;
@@ -350,5 +387,11 @@ body {
     height: 100%;
     top: 0;
     position: fixed; }
+  #appointment-and-contact-page span.bold {
+    font-weight: bold; }
+  #appointment-and-contact-page .time {
+    margin: 20px 0; }
+    #appointment-and-contact-page .time p {
+      margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,7 +14,10 @@
 // });
 
 new Vue({
-   el: 'body'
+   el: 'body',
+   ready: function () {
+      HelpersRepository.scrollbars();
+   }
 });
 
 // var router = new VueRouter({

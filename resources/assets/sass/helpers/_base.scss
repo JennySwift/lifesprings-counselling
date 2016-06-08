@@ -11,6 +11,9 @@ html, body {
 body {
     padding-top: 52px;
     color: white;
+    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
     .main {
         padding-bottom: 60px;
         //min-height: 100%;
@@ -36,4 +39,11 @@ body {
 
 h1,h2,h3,h4,h5 {
     text-align: center;
+}
+
+a {
+    color: $success;
+    &:hover {
+        color: $success;
+    }
 }

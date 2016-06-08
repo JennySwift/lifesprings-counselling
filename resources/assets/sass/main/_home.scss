@@ -22,7 +22,7 @@
     }
 }
 
-@mixin text($paddingTop: 68px, $paddingRight: 40px, $paddingBottom: 40px, $paddingLeft: 40px) {
+@mixin text($paddingTop: 20px, $paddingRight: 20px, $paddingBottom: 20px, $paddingLeft: 20px) {
     .text {
         padding-top: $paddingTop;
         padding-right: $paddingRight;
@@ -30,6 +30,14 @@
         padding-left: $paddingLeft;
         //So it appears above the black cover
         position: relative;
+        p,ul {
+            max-width: 600px;
+            margin: auto;
+        }
+        p {
+            margin: 20px auto;
+        }
+
     }
 }
 
@@ -52,6 +60,9 @@
     @include backgroundImage;
     @include text;
     @include cover(black, .35);
+    img {
+        width: 20%;
+    }
 }
 
 #appointment-and-contact-page {
@@ -59,4 +70,14 @@
     @include backgroundImage;
     @include text;
     @include cover(black, .4);
+    text-align: center;
+    span.bold {
+        font-weight: bold;
+    }
+    .time {
+        margin: 20px 0;
+        p {
+            margin: 0 auto;
+        }
+    }
 }

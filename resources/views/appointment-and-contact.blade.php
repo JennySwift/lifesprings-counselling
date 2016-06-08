@@ -15,13 +15,17 @@
 
     <p>Appointments are available at Waterloo or Ramsgate as follows:</p>
 
-    <p><i>Tuesdays and Thursdays</i> (12pm-7:30pm last appointment)</p>
-    <p>Location:  20/198-222 Young Street, Waterloo (inner Sydney)</p>
+    <div class="time">
+        <p><span class="bold">Tuesdays and Thursdays</span> (12pm-7:30pm last appointment)</p>
+        <p>Location:  20/198-222 Young Street, Waterloo (inner Sydney)</p>
+    </div>
 
-    <p><i>Wednesday</i> (5- 8 pm last appointment)</p>
-    <p>Location:  245 Rocky Point Road, Ramsgate (south Sydney)</p>
+    <div class="time">
+        <p><span class="bold">Wednesday</span> (5- 8 pm last appointment)</p>
+        <p>Location:  245 Rocky Point Road, Ramsgate (south Sydney)</p>
+    </div>
 
-    <h1>To make an appointment call Dina on 0414 440 727.</h1>
+    <h2>To make an appointment call Dina on 0414 440 727.</h2>
 </div>
 
 {{--<img src="/img/waterfall.jpg">--}}

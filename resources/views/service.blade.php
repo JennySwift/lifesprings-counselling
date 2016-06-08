@@ -10,7 +10,7 @@
 <navbar></navbar>
 
 <div class="cover"></div>
-<div class="text">
+<div class="text scrollbar-container">
 
     <h1>Service</h1>
 
