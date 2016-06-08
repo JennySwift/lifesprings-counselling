@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<navbar></navbar>
+
 <div>
 
     <h1>Service</h1>

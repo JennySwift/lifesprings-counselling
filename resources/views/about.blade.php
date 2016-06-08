@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<navbar></navbar>
+
 <h1>About Dina</h1>
 
 

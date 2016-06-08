@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<navbar></navbar>
+
 <div>
     <h1>Appointment and Contact</h1>
 

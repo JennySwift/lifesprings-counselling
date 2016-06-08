@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<navbar></navbar>
+
 <h1>Welcome to Lifesprings Counselling!</h1>
 <h2>Dina Lindemann 0414 440 727</h2>
 

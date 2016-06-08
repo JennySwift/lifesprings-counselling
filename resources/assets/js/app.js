@@ -1,16 +1,20 @@
 
-var App = Vue.component('app', {
-    data: function () {
-        return {
+// var App = Vue.component('app', {
+//     data: function () {
+//         return {
+//
+//         };
+//     },
+//     methods: {
+//
+//     },
+//     ready: function () {
+//
+//     }
+// });
 
-        };
-    },
-    methods: {
-
-    },
-    ready: function () {
-
-    }
+new Vue({
+   el: 'body'
 });
 
 // var router = new VueRouter({
