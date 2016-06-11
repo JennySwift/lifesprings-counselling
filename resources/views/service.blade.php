@@ -32,9 +32,6 @@
                                     <li>Boundaries</li>
                                     <li>Life transitions</li>
                                     <li>Emotional crisis</li>
-                                </ul>
-
-                                <ul>
                                     <li>Addictions</li>
                                     <li>Cultural conflicts</li>
                                     <li>Unhealthy patterns of behaviour</li>

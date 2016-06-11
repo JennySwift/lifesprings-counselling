@@ -10,10 +10,10 @@
     margin: 20px;
     position: relative;
     bottom: $navHeight;
-    width: 80%;
+    width: 65%;
 }
 .text-container {
-    background: white;
+    background: $textBackground;
     padding: 20px;
 }
 .text {

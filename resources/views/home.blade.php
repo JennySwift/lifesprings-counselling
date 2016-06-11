@@ -16,13 +16,16 @@
                     <img src="/img/nature.jpg">
 
                     <h2>Home</h2>
-                    <h1>Welcome to Lifesprings Counselling!</h1>
-                    <h2>Dina Lindemann <a href="tel:0414440727">&#48;&#52;&#49;&#52; &#52;&#52;&#48; &#55;&#50;&#55;</a></h2>
+                    <h1>Welcome to Lifesprings Counselling</h1>
+                    <h2>
+                        <div>Dina Lindemann</div>
+                        <div>Mobile: <a href="tel:0414440727">&#48;&#52;&#49;&#52; &#52;&#52;&#48; &#55;&#50;&#55;</a></div>
+                    </h2>
 
                     <p>Perhaps you have come to this site whilst exploring the possibility of counselling for yourself or someone you
                         know. Here you will find information on the counselling and psychotherapy service offered at Lifesprings
                         Counselling.</p>
-                    <p>My name is Dina Lindemann, and I am a Christian counsellor, and professional registered counsellor and
+                    <p>My name is Dina Lindemann, and I am a professional registered counsellor and
                         psychotherapist. I specialise in working with individuals and couples seeking counselling from a Christian world
                         view.</p>
                     <p>Whether working with individuals or couples, I strive to provide a compassionate, non-judgemental and safe

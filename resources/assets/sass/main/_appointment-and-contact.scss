@@ -27,9 +27,9 @@
         display: none;
     }
     h1 a {
-        color: #777;
+        color: $textColor;
         &:hover {
-            color: #777;
+            color: $textColor;
         }
     }
     @media (max-width: 844px) {
