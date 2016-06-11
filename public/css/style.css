@@ -303,18 +303,22 @@ body {
   align-items: center; }
 
 #home-page .navbar-text-container {
-  max-width: 600px;
   margin: 20px;
   position: relative;
-  bottom: 25px; }
+  bottom: 25px;
+  width: 80%; }
+
+#home-page .text-container {
+  background: white; }
 
 #home-page .text {
+  max-width: 600px;
   max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  background: white; }
+  margin: auto; }
   #home-page .text p {
     margin: 20px auto; }
 
@@ -338,8 +342,14 @@ body {
   max-width: 39%;
   float: right;
   margin-left: 20px; }
-  #home-page .text img.logo {
-    width: 100px; }
+
+#home-page .logo {
+  width: 100px;
+  float: none;
+  margin: 0 6px 5px 0; }
+
+#home-page .logo-img-container {
+  text-align: right; }
 
 #home-page .main {
   position: relative;
@@ -349,6 +359,10 @@ body {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column; }
+
+@media (max-width: 768px) {
+  #home-page h2 {
+    font-size: 14px; } }
 
 #about-page .navbar-text-container-container {
   min-height: 100%;
@@ -363,18 +377,22 @@ body {
   align-items: center; }
 
 #about-page .navbar-text-container {
-  max-width: 600px;
   margin: 20px;
   position: relative;
-  bottom: 25px; }
+  bottom: 25px;
+  width: 80%; }
+
+#about-page .text-container {
+  background: white; }
 
 #about-page .text {
+  max-width: 600px;
   max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  background: white; }
+  margin: auto; }
   #about-page .text p {
     margin: 20px auto; }
 
@@ -412,18 +430,22 @@ body {
   align-items: center; }
 
 #service-page .navbar-text-container {
-  max-width: 600px;
   margin: 20px;
   position: relative;
-  bottom: 25px; }
+  bottom: 25px;
+  width: 80%; }
+
+#service-page .text-container {
+  background: white; }
 
 #service-page .text {
+  max-width: 600px;
   max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  background: white; }
+  margin: auto; }
   #service-page .text p {
     margin: 20px auto; }
 
@@ -493,18 +515,22 @@ body {
   align-items: center; }
 
 #appointment-and-contact-page .navbar-text-container {
-  max-width: 600px;
   margin: 20px;
   position: relative;
-  bottom: 25px; }
+  bottom: 25px;
+  width: 80%; }
+
+#appointment-and-contact-page .text-container {
+  background: white; }
 
 #appointment-and-contact-page .text {
+  max-width: 600px;
   max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  background: white; }
+  margin: auto; }
   #appointment-and-contact-page .text p {
     margin: 20px auto; }
 

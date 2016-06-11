@@ -9,22 +9,27 @@
         align-items: center;
     }
     .navbar-text-container {
-        max-width: $textMaxWidth;
         margin: 20px;
         position: relative;
         bottom: $navHeight;
+        width: 80%;
         //margin-top: -$navHeight;
     }
+    .text-container {
+        background: white;
+    }
     .text {
+        max-width: $textMaxWidth;
         max-height: calc(100% - 200px);
         padding-top: $paddingTop;
         padding-right: $paddingRight;
         padding-bottom: $paddingBottom;
         padding-left: $paddingLeft;
+        margin: auto;
         p {
             margin: 20px auto;
         }
-        background: white;
+
 
     }
 }
