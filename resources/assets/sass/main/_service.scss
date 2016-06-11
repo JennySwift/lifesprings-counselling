@@ -41,4 +41,14 @@
             max-width: 57%;
         }
     }
+    @media (max-width: 680px) {
+        .fees {
+            float: none;
+            max-width: none;
+        }
+        .services {
+            float: none;
+            max-width: none;
+        }
+    }
 }

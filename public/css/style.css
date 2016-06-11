@@ -393,6 +393,14 @@ h2 {
   #service-page .services {
     max-width: 57%; } }
 
+@media (max-width: 680px) {
+  #service-page .fees {
+    float: none;
+    max-width: none; }
+  #service-page .services {
+    float: none;
+    max-width: none; } }
+
 #appointment-and-contact-page span.bold {
   font-weight: bold; }
 
