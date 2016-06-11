@@ -7,11 +7,6 @@
 </head>
 <body id="home-page" class="">
 
-{{--<div class="cover"></div>--}}
-{{--<div class="img-container">--}}
-    {{--<img src="/img/nature.jpg">--}}
-{{--</div>--}}
-
 <div class="main">
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
@@ -51,11 +46,6 @@
 
 
 </div>
-
-
-{{--<div class="img-container logo-img-container">--}}
-    {{--<img class="logo" src="/img/CCAA-Logo.gif">--}}
-{{--</div>--}}
 
 @include('main.shared.footer')
 </body>

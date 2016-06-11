@@ -1,32 +1,8 @@
 #about-page {
-    //background: url('/img/autumn.jpg') no-repeat right center;
-    //@include backgroundImage;
-    @include text;
-    //@include cover(black, .35);
-    .text-img-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        .profile-container {
-            width: 24%;
-            img.profile {
-                width: 100%;
-                max-width: 300px;
-                height: auto;
-            }
-        }
-        .text {
-            //flex-grow: 1;
+    .text {
+        img.profile {
+            max-width: 22%;
         }
     }
 
-    @media (max-width: $breakpoint2) {
-        .text-img-container {
-            .profile-container {
-                width: 50%;
-                margin-top: 0;
-            }
-        }
-    }
 }
