@@ -1,0 +1,48 @@
+@mixin text($paddingTop: 20px, $paddingRight: 20px, $paddingBottom: 20px, $paddingLeft: 20px) {
+
+    .navbar-text-container-container {
+        min-height: 100%;
+        height: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-text-container {
+        max-width: $textMaxWidth;
+        margin: 20px;
+        position: relative;
+        bottom: $navHeight;
+        //margin-top: -$navHeight;
+    }
+    .text {
+        max-height: calc(100% - 200px);
+        padding-top: $paddingTop;
+        padding-right: $paddingRight;
+        padding-bottom: $paddingBottom;
+        padding-left: $paddingLeft;
+        p {
+            margin: 20px auto;
+        }
+        background: white;
+
+    }
+}
+
+.img-container {
+    text-align: center;
+    margin: 20px;
+    img {
+        //width: 77%;
+        height: 200px;
+        border-radius: 10px;
+        //&.logo {
+        //    width: 266px;
+        //    height: auto;
+        //    border-radius: 0;
+        //}
+    }
+    //&.logo-img-container {
+    //    margin-top: 0;
+    //}
+}

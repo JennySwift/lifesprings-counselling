@@ -17,6 +17,10 @@ new Vue({
    el: 'body',
    ready: function () {
       HelpersRepository.scrollbars();
+      HelpersRepository.setHeights();
+      $(window).on('resize', function () {
+         HelpersRepository.setHeights();
+      });
    }
 });
 

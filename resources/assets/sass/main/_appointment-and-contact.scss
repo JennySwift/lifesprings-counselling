@@ -1,0 +1,46 @@
+#appointment-and-contact-page {
+    //background: url('/img/waterfall.jpg') no-repeat center center;
+    //@include backgroundImage;
+    @include text;
+    //@include cover(black, .4);
+    //text-align: center;
+    span.bold {
+        font-weight: bold;
+    }
+    .time {
+        margin: 20px 0;
+        p {
+            margin: 0 auto;
+        }
+    }
+    .img-container {
+        img {
+            width: 50%;
+            height: auto;
+            margin-top: 0;
+        }
+    }
+    .text p {
+        max-width: 500px;
+    }
+    h1.smaller-screens {
+        display: none;
+    }
+    h1 a {
+        color: #777;
+        &:hover {
+            color: #777;
+        }
+    }
+    @media (max-width: 844px) {
+        h1.smaller-screens {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        h1.bigger-screens {
+            display: none;
+        }
+    }
+
+}

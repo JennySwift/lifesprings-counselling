@@ -19,4 +19,11 @@ var HelpersRepository = {
             });
         });
     },
+
+    setHeights: function () {
+        var height = $('.text').height();
+        var bodyHeight = $('body').height();
+        $('.text').css({ 'max-height': bodyHeight - 70 });
+        console.log(height);
+    }
 };

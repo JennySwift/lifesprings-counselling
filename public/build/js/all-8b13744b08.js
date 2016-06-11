@@ -19749,6 +19749,13 @@ var HelpersRepository = {
             });
         });
     },
+
+    setHeights: function () {
+        var height = $('.text').height();
+        var bodyHeight = $('body').height();
+        $('.text').css({ 'max-height': bodyHeight - 70 });
+        console.log(height);
+    }
 };
 var Navbar = Vue.component('navbar', {
     template: '#navbar-template',
@@ -19789,6 +19796,10 @@ new Vue({
    el: 'body',
    ready: function () {
       HelpersRepository.scrollbars();
+      HelpersRepository.setHeights();
+      $(window).on('resize', function () {
+         HelpersRepository.setHeights();
+      });
    }
 });
 

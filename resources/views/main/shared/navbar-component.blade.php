@@ -2,38 +2,43 @@
 
     <ul id="navbar" style="z-index:1000">
 
-        <li>
-            <a
-                href="/"
-            >
-                Home
-            </a>
-        </li>
+        <li id="menu-dropdown" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navigation<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a
+                            href="/"
+                    >
+                        Home
+                    </a>
+                </li>
 
-        <li>
-            <a
-                href="/service"
-            >
-                Service
-            </a>
-        </li>
+                <li>
+                    <a
+                            href="/service"
+                    >
+                        Service
+                    </a>
+                </li>
 
-        <li>
-            <a
-                href="/about"
-            >
-                About
-            </a>
-        </li>
+                <li>
+                    <a
+                            href="/about"
+                    >
+                        About
+                    </a>
+                </li>
 
-        <li>
-            <a
-                href="/appointment-and-contact"
-            >
-                Appointment/Contact
-            </a>
-        </li>
+                <li>
+                    <a
+                            href="/appointment-and-contact"
+                    >
+                        Appointment/Contact
+                    </a>
+                </li>
+            </ul>
 
+        </li>
 
     </ul>
 </script>

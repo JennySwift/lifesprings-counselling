@@ -2,21 +2,19 @@
 /*==============================global==============================*/
 html, body {
   max-width: 100%;
-  background: #fff;
-  margin: 0;
+  background: #d6e3bc;
+  margin: 0; }
+
+html {
   height: 100%; }
 
 body {
-  padding-top: 52px;
+  min-height: 100%;
+  height: 1px;
   color: #777;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px; }
-  body .main {
-    padding-bottom: 60px;
-    min-height: calc(100% - 40px);
-    margin: 20px;
-    margin-top: 0; }
   body footer {
     display: -ms-flexbox;
     display: flex;
@@ -35,6 +33,9 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-align: center; }
+
+h1 {
+  margin-top: 0px; }
 
 [v-fade] {
   display: none; }
@@ -69,12 +70,12 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 7px; }
 
 label.input-group-addon {
-  background: black;
+  background: #d6e3bc;
   color: white;
   min-width: 135px; }
 
 .selected {
-  background: black;
+  background: #d6e3bc;
   color: white; }
 
 .sortable {
@@ -145,15 +146,12 @@ body {
 #navbar {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color: white;
-  background: black;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  right: 0px;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  border-radius: 3px; }
   #navbar img {
     width: 37px; }
   #navbar .fa-cog {
@@ -169,9 +167,9 @@ body {
     #navbar .dropdown-menu li {
       background: white; }
       #navbar .dropdown-menu li a {
-        color: black; }
+        color: #d6e3bc; }
       #navbar .dropdown-menu li:hover {
-        background: black; }
+        background: #d6e3bc; }
         #navbar .dropdown-menu li:hover a {
           color: white; }
       #navbar .dropdown-menu li a:focus, #navbar .dropdown-menu li a:hover {
@@ -184,8 +182,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    height: 50px;
-    min-width: 200px; }
+    height: 25px; }
     #navbar > li .icon-container {
       display: -ms-flexbox;
       display: flex;
@@ -193,13 +190,11 @@ body {
       align-items: center; }
     #navbar > li > a {
       transition: all .5s ease;
-      text-decoration: none; }
-    #navbar > li:hover > a {
-      font-size: 19px; }
-      #navbar > li:hover > a.fa {
-        font-size: 25px; }
+      text-decoration: none;
+      padding: 6px; }
   #navbar a {
-    color: white; }
+    color: #777;
+    font-weight: bold; }
   #navbar .gravatar-li .gravatar-container {
     margin-left: 5px;
     display: -ms-flexbox;
@@ -241,7 +236,7 @@ body {
   bottom: 0;
   margin: auto;
   font-size: 40px;
-  color: black;
+  color: #d6e3bc;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -294,52 +289,143 @@ body {
   .img-container img {
     height: 200px;
     border-radius: 10px; }
-    .img-container img.logo {
-      width: 266px;
-      height: auto;
-      border-radius: 0; }
-  .img-container.logo-img-container {
-    margin-top: 0; }
 
-h1 {
-  margin-top: 0px; }
+#home-page .navbar-text-container-container {
+  min-height: 100%;
+  height: 1px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#home-page .navbar-text-container {
+  max-width: 600px;
+  margin: 20px;
+  position: relative;
+  bottom: 25px; }
 
 #home-page .text {
+  max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  position: relative; }
-  #home-page .text p, #home-page .text ul {
-    max-width: 600px;
-    margin: auto; }
+  background: white; }
   #home-page .text p {
     margin: 20px auto; }
 
-#home-page h2 a {
-  color: #777; }
-  #home-page h2 a:hover {
-    color: #777; }
+#home-page h1, #home-page h2 {
+  text-align: left;
+  margin-bottom: 2px;
+  margin-top: 2px; }
 
-#service-page .text {
+#home-page h1 {
+  font-size: 2.5vmin;
+  line-height: 1.2; }
+
+#home-page h2 {
+  font-size: 1.5vmin; }
+  #home-page h2 a {
+    color: #777; }
+    #home-page h2 a:hover {
+      color: #777; }
+
+#home-page .text img {
+  max-width: 39%;
+  float: right;
+  margin-left: 20px; }
+  #home-page .text img.logo {
+    width: 100px; }
+
+#home-page .main {
+  position: relative;
+  min-height: 100%;
+  height: 1px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+#about-page .navbar-text-container-container {
+  min-height: 100%;
+  height: 1px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#about-page .navbar-text-container {
+  max-width: 600px;
+  margin: 20px;
+  position: relative;
+  bottom: 25px; }
+
+#about-page .text {
+  max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  position: relative; }
-  #service-page .text p, #service-page .text ul {
-    max-width: 600px;
-    margin: auto; }
-  #service-page .text p {
+  background: white; }
+  #about-page .text p {
     margin: 20px auto; }
 
-#service-page .cover {
-  background: black;
-  opacity: 0.45;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  position: fixed; }
+#about-page .text-img-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #about-page .text-img-container .profile-container {
+    width: 24%; }
+    #about-page .text-img-container .profile-container img.profile {
+      width: 100%;
+      max-width: 300px;
+      height: auto; }
+
+@media (max-width: 768px) {
+  #about-page .text-img-container .profile-container {
+    width: 50%;
+    margin-top: 0; } }
+
+#service-page .navbar-text-container-container {
+  min-height: 100%;
+  height: 1px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#service-page .navbar-text-container {
+  max-width: 600px;
+  margin: 20px;
+  position: relative;
+  bottom: 25px; }
+
+#service-page .text {
+  max-height: calc(100% - 200px);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background: white; }
+  #service-page .text p {
+    margin: 20px auto; }
 
 #service-page h1 {
   max-width: 600px;
@@ -394,48 +480,31 @@ h1 {
     width: 88%;
     margin-top: -25px; } }
 
-#about-page .text {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  position: relative; }
-  #about-page .text p, #about-page .text ul {
-    max-width: 600px;
-    margin: auto; }
-  #about-page .text p {
-    margin: 20px auto; }
-
-#about-page .text-img-container {
+#appointment-and-contact-page .navbar-text-container-container {
+  min-height: 100%;
+  height: 1px;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  #about-page .text-img-container .profile-container {
-    width: 24%; }
-    #about-page .text-img-container .profile-container img.profile {
-      width: 100%;
-      max-width: 300px;
-      height: auto; }
+  align-items: center; }
 
-@media (max-width: 768px) {
-  #about-page .text-img-container .profile-container {
-    width: 50%;
-    margin-top: 0; } }
+#appointment-and-contact-page .navbar-text-container {
+  max-width: 600px;
+  margin: 20px;
+  position: relative;
+  bottom: 25px; }
 
 #appointment-and-contact-page .text {
+  max-height: calc(100% - 200px);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  position: relative; }
-  #appointment-and-contact-page .text p, #appointment-and-contact-page .text ul {
-    max-width: 600px;
-    margin: auto; }
+  background: white; }
   #appointment-and-contact-page .text p {
     margin: 20px auto; }
 
