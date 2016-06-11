@@ -302,7 +302,8 @@ body {
   width: 80%; }
 
 .text-container {
-  background: white; }
+  background: white;
+  padding: 20px; }
 
 .text {
   max-width: 600px;
@@ -364,12 +365,6 @@ h2 {
   margin: 0 auto 20px auto; }
 
 #service-page .services-fees-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   width: 100%; }
 
 #service-page .list {
@@ -380,10 +375,23 @@ h2 {
     margin-left: 0; }
 
 #service-page .fees {
-  max-width: 39%; }
+  max-width: 39%;
+  float: right; }
+
+#service-page .services {
+  float: left; }
 
 #service-page .text {
   max-width: none; }
+
+#service-page img {
+  max-width: 39%;
+  float: right;
+  margin-left: 20px; }
+
+@media (max-width: 1000px) {
+  #service-page .services {
+    max-width: 57%; } }
 
 #appointment-and-contact-page span.bold {
   font-weight: bold; }
