@@ -3,62 +3,27 @@
         max-width: $textMaxWidth;
         margin: 0 auto 20px auto;
     }
-    .text-img-container {
+    .services-fees-container {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
         flex-wrap: wrap;
-        .img-container {
-            width: 25%;
-            img {
-                width: 100%;
-                max-width: 300px;
-                height: auto;
-                &.smaller-screens {
-                    display: none;
-                }
-            }
-        }
+        justify-content: space-between;
+        width: 100%;
     }
     .list {
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
+        //display: flex;
+        //align-items: flex-start;
+        //flex-wrap: wrap;
         ul {
             margin-top: 0;
             margin-left: 0;
         }
+        margin-right: 40px;
+        min-width: 192px;
     }
-
-    @media (max-width: 910px) {
-        .text-img-container {
-            .img-container {
-                height: auto;
-                width: 50%;
-                margin-top: 0;
-                img.bigger-screens {
-                    display: none;
-                }
-                img.smaller-screens {
-                    display: block;
-                    max-width: none;
-                }
-            }
-        }
+    .fees {
+        max-width: 39%;
     }
-    @media (max-width: $breakpoint2) {
-        .text-img-container {
-            .img-container {
-                width: 80%;
-            }
-        }
-    }
-    @media (max-width: $breakpoint1) {
-        .text-img-container {
-            .img-container {
-                width: 88%;
-                margin-top: -25px;
-            }
-        }
+    .text {
+        max-width: none;
     }
 }
