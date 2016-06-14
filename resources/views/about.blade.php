@@ -10,9 +10,9 @@
 <div class="main">
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
-            <navbar></navbar>
             <div class="text-container scrollbar-container">
                 <div class="text clearfix">
+                    <navbar></navbar>
                     {{--<img src="/img/forest.jpg">--}}
                     <h1>About Dina</h1>
 

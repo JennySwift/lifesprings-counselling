@@ -151,6 +151,7 @@ body {
   right: 0px;
   padding: 0;
   margin: 0;
+  margin-bottom: 5px;
   border-radius: 3px; }
   #navbar img {
     width: 37px; }
@@ -309,7 +310,7 @@ body {
   max-width: 805px;
   max-height: calc(100% - 200px);
   margin: auto;
-  padding: 20px; }
+  padding: 0px 20px 20px 20px; }
   .text p {
     margin: 20px auto; }
 

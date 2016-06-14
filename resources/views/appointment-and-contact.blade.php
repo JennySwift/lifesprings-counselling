@@ -10,10 +10,9 @@
 <div class="main">
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
-            <navbar></navbar>
             <div class="text-container scrollbar-container">
                 <div class="text">
-                    {{--<h1>Appointment and Contact</h1>--}}
+                    <navbar></navbar>
 
                     <h1 class="">
                         <div>To make an appointment call Dina on</div>

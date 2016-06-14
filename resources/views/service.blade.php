@@ -10,11 +10,10 @@
 <div class="main">
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
-            <navbar></navbar>
             <div class="text-container scrollbar-container">
                 <img src="/img/forest.jpg">
                 <div class="text">
-
+                    <navbar></navbar>
                     <div class="services-fees-container">
                         <div class="services">
                             <h1>Service</h1>
