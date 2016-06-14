@@ -390,9 +390,9 @@ h2 {
   float: right;
   margin-left: 20px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1230px) {
   #service-page .services {
-    max-width: 57%; } }
+    max-width: 55%; } }
 
 @media (max-width: 830px) {
   #service-page .fees {
