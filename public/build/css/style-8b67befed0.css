@@ -343,9 +343,9 @@ h1 {
 h2 {
   font-size: 1.5vmin; }
   h2 a {
-    color: #777; }
+    color: #040000; }
     h2 a:hover {
-      color: #777; }
+      color: #040000; }
 
 @media (max-width: 768px) {
   h2 {
