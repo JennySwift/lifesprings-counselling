@@ -73,7 +73,10 @@ h2 {
     }
 }
 
-@media (max-width: $breakpoint2) {
+@media (max-width: 860px) {
+    h1 {
+        font-size: 21px;
+    }
     h2 {
         font-size: 14px;
     }
