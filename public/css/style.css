@@ -151,14 +151,12 @@ body {
   right: 0px;
   padding: 0;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   border-radius: 3px; }
   #navbar img {
     width: 37px; }
-  #navbar .fa-cog {
-    font-size: 21px; }
-  #navbar .fa-question {
-    font-size: 21px; }
+  #navbar .dropdown a.dropdown-toggle {
+    font-size: 20px; }
   #navbar .dropdown-menu {
     background: white;
     right: 0;
@@ -168,11 +166,9 @@ body {
     #navbar .dropdown-menu li {
       background: white; }
       #navbar .dropdown-menu li a {
-        color: #d6e3bc; }
+        color: #040000; }
       #navbar .dropdown-menu li:hover {
         background: #d6e3bc; }
-        #navbar .dropdown-menu li:hover a {
-          color: white; }
       #navbar .dropdown-menu li a:focus, #navbar .dropdown-menu li a:hover {
         background-color: inherit; }
   #navbar > li {
@@ -310,7 +306,7 @@ body {
 
 .text-container {
   background: #f2f2f2;
-  padding: 20px; }
+  padding: 5px; }
 
 .text {
   max-width: 805px;

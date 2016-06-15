@@ -3,7 +3,7 @@
     <ul id="navbar" style="z-index:1000">
 
         <li id="menu-dropdown" class="dropdown">
-            <a href="#" class="dropdown-toggle fa fa-bars" data-toggle="dropdown"><span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
                 <li>
                     <a

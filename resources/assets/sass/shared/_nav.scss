@@ -1,31 +1,20 @@
 #navbar {
-    //display: none;
     display:flex;
     justify-content: flex-end;
-    //position: fixed;
-    //top: 0;
-    //width: 100%;
-    //color: white;
-    //width: 150px;
-    //position: absolute;
     right: 0px;
-    //top: -$navHeight;
-    //background: $navBackgroundColor;
     padding: 0;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     border-radius: 3px;
     img {
         width: 37px;
     }
-    .fa-cog {
-        font-size: 21px;
-    }
-    .fa-question {
-        font-size: 21px;
+    .dropdown {
+        a.dropdown-toggle {
+            font-size: 20px;
+        }
     }
     .dropdown-menu {
-        //background: $navBackgroundColor;
         background: white;
         right: 0;
         left: auto;
@@ -34,15 +23,10 @@
         li {
             background: white;
             a {
-                color: $navBackgroundColor;
+                color: $textColor;
             }
             &:hover {
-                //background: white;
                 background: $navBackgroundColor;
-                a {
-                    //color: $navBackgroundColor;
-                    color: white;
-                }
             }
             a:focus, a:hover {
                 background-color: inherit;
@@ -70,7 +54,6 @@
         font-weight: bold;
     }
     .gravatar-li {
-        //min-width: 160px;
         .gravatar-container {
             margin-left: 5px;
             display: flex;
@@ -120,12 +103,3 @@
         }
     }
 }
-
-//
-//@media all and (max-width: 500px) {
-//	#nav {
-//		.fa {
-//			font-size: 14px;
-//		}
-//	}
-//}

@@ -11,8 +11,8 @@
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
             <div class="text-container scrollbar-container">
+                <navbar></navbar>
                 <div class="text">
-                    <navbar></navbar>
                     <img src="/img/nature.jpg">
 
                     <h2>Home</h2>
