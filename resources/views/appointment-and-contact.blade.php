@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="time">
-                        <p><span class="bold">Wednesday</span> (5- 8 pm last appointment)</p>
+                        <p><span class="bold">Wednesday</span> (1-8pm last appointment)</p>
                         <p>Location:  245 Rocky Point Road, Ramsgate (south Sydney)</p>
                         <p>
                             <a target="_blank" href="https://www.google.com.au/maps/place/245+Rocky+Point+Rd,+Ramsgate+NSW+2217">Map</a></p>
