@@ -1,49 +1,29 @@
 
-// var App = Vue.component('app', {
-//     data: function () {
-//         return {
-//
-//         };
-//     },
-//     methods: {
-//
-//     },
-//     ready: function () {
-//
-//     }
-// });
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
 
-new Vue({
-   el: 'body',
-   ready: function () {
-      HelpersRepository.scrollbars();
-      HelpersRepository.setHeights();
-      $(window).on('resize', function () {
-         HelpersRepository.setHeights();
-      });
-   }
+require('./bootstrap');
+
+window.Vue = require('vue');
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+Vue.component('example-component', require('./components/ExampleComponent.vue'));
+
+const app = new Vue({
+    el: '#app',
+    ready: function () {
+        HelpersRepository.scrollbars();
+        HelpersRepository.setHeights();
+        $(window).on('resize', function () {
+            HelpersRepository.setHeights();
+        });
+    }
 });
-
-// var router = new VueRouter({
-//     hashbang: false
-// });
-
-// router.map({
-    // '/': {
-        // component: ,
-        //subRoutes: {
-        //    //default for if no id is specified
-        //    '/': {
-        //        component:
-        //    },
-        //    '/:id': {
-        //        component:
-        //    }
-        //}
-    // }
-// });
-
-// router.start(App, 'body');
-
-
-
