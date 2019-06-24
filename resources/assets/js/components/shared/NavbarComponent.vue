@@ -1,5 +1,4 @@
-<script id="navbar-template" type="x-template">
-
+<template>
     <ul id="navbar" style="z-index:1000">
 
         <li id="menu-dropdown" class="dropdown">
@@ -7,7 +6,7 @@
             <ul class="dropdown-menu" role="menu">
                 <li>
                     <a
-                            href="/"
+                        href="/"
                     >
                         Home
                     </a>
@@ -15,7 +14,7 @@
 
                 <li>
                     <a
-                            href="/service"
+                        href="/service"
                     >
                         Service
                     </a>
@@ -23,7 +22,7 @@
 
                 <li>
                     <a
-                            href="/about"
+                        href="/about"
                     >
                         About
                     </a>
@@ -31,7 +30,7 @@
 
                 <li>
                     <a
-                            href="/appointment-and-contact"
+                        href="/appointment-and-contact"
                     >
                         Appointment/Contact
                     </a>
@@ -41,6 +40,14 @@
         </li>
 
     </ul>
+</template>
+
+<script>
+    export default {
+
+    }
 </script>
 
-
+<style lang="scss" type="text/scss">
+    //@import '../../../../sass/shared/index';
+</style>

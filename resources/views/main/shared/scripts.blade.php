@@ -1,5 +1,1 @@
-
-
-@include('main.shared.navbar-component')
-
-<script type="text/javascript" src="/js/all.js"></script>
+<script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>

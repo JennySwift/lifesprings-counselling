@@ -1,4 +1,4 @@
-var HelpersRepository = {
+export default {
     /**
      *
      */
@@ -26,4 +26,4 @@ var HelpersRepository = {
         $('.text-container').css({ 'max-height': bodyHeight - 70 });
         console.log(height);
     }
-};
+}
