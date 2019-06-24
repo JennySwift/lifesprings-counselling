@@ -1,0 +1,105 @@
+#navbar {
+    display:flex;
+    justify-content: flex-end;
+    right: 0px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    img {
+        width: 37px;
+    }
+    .dropdown {
+        a.dropdown-toggle {
+            font-size: 20px;
+        }
+    }
+    .dropdown-menu {
+        background: white;
+        right: 0;
+        left: auto;
+        min-width: inherit;
+        padding: 2px 0;
+        li {
+            background: white;
+            a {
+                color: $textColor;
+            }
+            &:hover {
+                background: $navBackgroundColor;
+            }
+            a:focus, a:hover {
+                background-color: inherit;
+            }
+        }
+    }
+    > li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: $navHeight;
+        .icon-container {
+            display: flex;
+            align-items: center;
+        }
+        > a {
+            transition: all .5s ease;
+            text-decoration: none;
+            padding: 6px;
+        }
+    }
+    a {
+        color: $textColor;
+        font-weight: bold;
+    }
+    .gravatar-li {
+        .gravatar-container {
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+            .gravatar {
+                border-radius: 8px;
+                height: 32px;
+            }
+        }
+    }
+    .show-dropdown {
+        a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            span:first-child {
+                margin-right: 17px;
+            }
+            .fa-check {
+                font-size: 17px;
+            }
+        }
+        a[disabled=true] {
+            cursor: not-allowed;
+        }
+        .disabled {
+            color: #777;
+            font-weight: bold;
+            text-align: center;
+            &:hover {
+                background: white;
+            }
+        }
+    }
+
+
+
+    @media (max-width: $breakpoint2) {
+        li {
+            min-width: 40px;
+        }
+
+    }
+    @media (max-width: $breakpoint1) {
+        a {
+            font-size: 12px;
+        }
+    }
+}

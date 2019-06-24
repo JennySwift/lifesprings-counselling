@@ -1,0 +1,46 @@
+#appointment-and-contact-page {
+    span.bold {
+        font-weight: bold;
+    }
+    .time {
+        margin: 20px 0;
+        p {
+            margin: 0 auto;
+        }
+    }
+    .img-container {
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            width: 40%;
+            height: auto;
+            margin-top: 0;
+        }
+    }
+    .text p {
+        max-width: 500px;
+    }
+    h1 {
+        text-align: center;
+    }
+    h1.smaller-screens {
+        display: none;
+    }
+    h1 a {
+        color: $textColor;
+        &:hover {
+            color: $textColor;
+        }
+    }
+    @media (max-width: 844px) {
+        h1.smaller-screens {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        h1.bigger-screens {
+            display: none;
+        }
+    }
+
+}
