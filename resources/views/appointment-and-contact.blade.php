@@ -7,7 +7,7 @@
 </head>
 <body id="appointment-and-contact-page" class="">
 
-<div class="main">
+<div id="app" class="main">
     <div class="navbar-text-container-container">
         <div class="navbar-text-container">
             <div class="text-container scrollbar-container">
