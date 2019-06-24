@@ -11,6 +11,7 @@ require('./components');
 window.Vue = require('vue');
 
 import helpers from './repositories/HelpersRepository'
+global.helpers = helpers;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -22,11 +23,11 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 
 const app = new Vue({
     el: '#app',
-    ready: function () {
-        HelpersRepository.scrollbars();
-        HelpersRepository.setHeights();
+    mounted: function () {
+        helpers.scrollbars();
+        helpers.setHeights();
         $(window).on('resize', function () {
-            HelpersRepository.setHeights();
+            helpers.setHeights();
         });
     }
 });

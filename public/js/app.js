@@ -423,7 +423,7 @@ module.exports = __webpack_require__(53);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__ = __webpack_require__(49);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__ = __webpack_require__(49);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -437,6 +437,7 @@ __webpack_require__(37);
 window.Vue = __webpack_require__(11);
 
 
+global.helpers = __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__["a" /* default */];
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -448,14 +449,15 @@ Vue.component('example-component', __webpack_require__(50));
 
 var app = new Vue({
     el: '#app',
-    ready: function ready() {
-        HelpersRepository.scrollbars();
-        HelpersRepository.setHeights();
+    mounted: function mounted() {
+        __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__["a" /* default */].scrollbars();
+        __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__["a" /* default */].setHeights();
         $(window).on('resize', function () {
-            HelpersRepository.setHeights();
+            __WEBPACK_IMPORTED_MODULE_0__repositories_HelpersRepository__["a" /* default */].setHeights();
         });
     }
 });
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
 /* 15 */,
@@ -13265,7 +13267,7 @@ if (false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = ({
+/* harmony default export */ __webpack_exports__["a"] = ({
     /**
      *
      */
@@ -13291,7 +13293,6 @@ if (false) {
         var height = $('.text').height();
         var bodyHeight = $('body').height();
         $('.text-container').css({ 'max-height': bodyHeight - 70 });
-        console.log(height);
     }
 });
 

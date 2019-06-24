@@ -24,6 +24,5 @@ export default {
         var height = $('.text').height();
         var bodyHeight = $('body').height();
         $('.text-container').css({ 'max-height': bodyHeight - 70 });
-        console.log(height);
     }
 }
