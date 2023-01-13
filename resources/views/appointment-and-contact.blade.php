@@ -12,7 +12,7 @@
         <div class="navbar-text-container">
             <div class="text-container scrollbar-container">
                 <navbar></navbar>
-                <div class="text">
+                <div class="text" style="text-align: center">
 
                     <h1 class="">
                         <div>To make an enquiry or book an appointment please contact Dina on</div>
