@@ -49,8 +49,8 @@
                             <p>Fees are charged at the following rates:</p>
 
                             <ul>
-                                <li>Individual Counselling $100 (50 minutes)</li>
-                                <li>Couple Counselling $170 first session (90 minutes) and $130 subsequent sessions (75 minutes)</li>
+                                <li>Individual Counselling $110 per session (50 minutes)</li>
+                                <li>Couple Counselling $140 per session (75 minutes)</li>
                             </ul>
 
                             <p>Concessions are available for full time students and those genuinely in need.</p>
