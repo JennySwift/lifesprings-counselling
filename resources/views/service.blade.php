@@ -57,7 +57,6 @@
 
                             <p>Please note that Medicare rebates are not available for counselling.</p>
 
-                            <p>The cost of this service will typically be around the same or lower than the out of pocket cost (gap) of seeing a psychologist under Medicare.</p>
                         </div>
                     </div>
 
